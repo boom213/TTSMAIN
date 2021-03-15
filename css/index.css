@@ -1,0 +1,91 @@
+.nav-item a:hover {
+  position: relative;
+  background-color: #F2F3F4;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+#linear{
+  animation-timing-function: linear;
+
+}
+
+	@media (max-width: 991.98px)
+
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+.gradient-text{
+ 
+  /* Create the gradient. */
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  
+      z-index: 8;
+    background: rgba(255, 255, 245, 0.45);     
+    visibility: visible;
+    border-color: rgb(102, 102, 102);
+    border-style: none;
+    margin: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    margin:auto;
+    color: rgb(255, 255, 255);
+    width: 53%;
+    height: 40%;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    transform-origin: 50% 50%;
+    transform: perspective(600px);
+    text-align:justify; 
+    text-decoration-color: black;
+    margin-bottom: 80px;
+    margin-left: 285px;
+}
+
+.webtext{
+  font-size: 33px;
+}
+@media only screen and (max-width: 600px) {
+   .webtext{
+  font-size: 22px;
+  }
+  .gradient-text{
+    z-index: 8;
+    background: rgba(255, 255, 245, 0.45);     
+    visibility: visible;
+    border-color: rgb(102, 102, 102);
+    border-style: none;
+    margin: 0px;
+    margin:auto;
+
+    border-radius: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: 332px;
+    height: 230px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: perspective(600px);
+  }
+
+
+}
